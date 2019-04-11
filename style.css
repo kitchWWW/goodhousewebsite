@@ -48,6 +48,13 @@ body {
     font-size: 350%;
 
 }
+.subtitle {
+    color: #AF4C3F;
+    text-align: right;
+    margin-right: 150px;
+    font-size: 250%;
+
+}
 
 .navLink {
     color:#92AD94;

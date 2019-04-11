@@ -13,6 +13,9 @@ app.config(function($routeProvider) {
     .when("/contact", {
         templateUrl : "pages/contact.html"
     })
+    .when("/XOR", {
+        templateUrl : "pages/XOR.html"
+    })
     .when("/ensemble", {
         templateUrl : "pages/ensemble.html"
     });
