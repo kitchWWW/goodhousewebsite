@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+<link rel="shortcut icon" type="image/png" href="res/favicon.png"/>
+
+<body ng-app="myApp">
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="wrapper">
+      <div class="box a"><a href="#!home" class="homeLink">Good</a></div>
+      <div class="box b"><a href="#!home" class="homeLink">House</a></div>
+      <div class="box c">&nbsp;</div>
+      <div class="box d"> <a href="#!about" class="navLink">About</a></div>
+      <div class="box e"><a href="#!home" class="homeLink">Collective</a></div>
+      <div class="box f"><a href="#!projects" class="navLink">Projects</a></div>
+      <div class="box g">&nbsp;</div>
+      <div class="box h"><a href="#!ensemble" class="navLink">Ensemble</a></div>
+      <div class="box i"><a href="#!contact" class="navLink">Contact</a></div>
+    </div>
+  </div>
+  <div class="column">
+    <div ng-view></div>
+  </div>
+</div>
+
+
+
+
+
+<script src="routing.js"></script>
+</body>
+</html>
